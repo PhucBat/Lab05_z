@@ -11,8 +11,41 @@ namespace Lab05.BUS
     {
         public List<Faculty> GetAll()
         {
-            StudentModel context = new StudentModel();
-            return context.Faculties.ToList();
+            using (StudentModel context = new StudentModel())
+            {
+                return context.Faculties.ToList();
+            }
+        }
+
+        public void Add(Faculty faculty)
+        {
+            using (StudentModel context = new StudentModel())
+            {
+                context.Faculties.Add(faculty);
+                context.SaveChanges();
+            }
+        }
+
+        public void Update(Faculty faculty)
+        {
+            using (StudentModel context = new StudentModel())
+            {
+                context.Entry(faculty).State = System.Data.Entity.EntityState.Modified;
+                context.SaveChanges();
+            }
+        }
+
+        public void Delete(int facultyId)
+        {
+            using (StudentModel context = new StudentModel())
+            {
+                var faculty = context.Faculties.Find(facultyId);
+                if (faculty != null)
+                {
+                    context.Faculties.Remove(faculty);
+                    context.SaveChanges();
+                }
+            }
         }
     }
 }

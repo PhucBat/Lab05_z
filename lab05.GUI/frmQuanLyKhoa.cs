@@ -19,8 +19,8 @@ namespace lab05.GUI
         public frmQuanLyKhoa()
         {
             InitializeComponent();
-           frmQuanLyKhoa_Load(this,EventArgs.Empty);
-            
+            frmQuanLyKhoa_Load(this, EventArgs.Empty);
+
         }
 
         private void frmQuanLyKhoa_Load(object sender, EventArgs e)
@@ -35,7 +35,10 @@ namespace lab05.GUI
 
                 BindGrid(faculties);
             }
-            catch (Exception ex) { }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred: " + ex.Message);
+            }
 
         }
 
@@ -89,6 +92,88 @@ namespace lab05.GUI
 
             // Thiết lập màu nền xen kẽ cho các hàng
             dgv.AlternatingRowsDefaultCellStyle.BackColor = Color.LightGray;
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            Faculty faculty = new Faculty
+            {
+                FacultyID = int.Parse(txtMaKhoa.Text),
+                FacultyName = txtTenKhoa.Text
+            };
+
+            FacultyService facultyService = new FacultyService();
+
+            // Kiểm tra xem khoa đã tồn tại hay chưa
+            var existingFaculty = facultyService.GetAll().FirstOrDefault(f => f.FacultyID == faculty.FacultyID);
+            if (existingFaculty != null)
+            {
+                // Nếu khoa đã tồn tại, cập nhật thông tin
+                existingFaculty.FacultyName = faculty.FacultyName;
+                facultyService.Update(existingFaculty);
+                MessageBox.Show("Cập nhật khoa thành công!");
+            }
+            else
+            {
+                // Nếu khoa chưa tồn tại, thêm mới
+                facultyService.Add(faculty);
+                MessageBox.Show("Thêm khoa thành công!");
+            }
+
+            // LoadData(); // Cập nhật lại DataGridView
+            frmQuanLyKhoa_Load(this, EventArgs.Empty); // Refresh DataGridView
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            // Kiểm tra xem có hàng nào được chọn không
+            if (dgvDanhSachKhoa.SelectedRows.Count > 0)
+            {
+                int facultyID = (int)dgvDanhSachKhoa.SelectedRows[0].Cells["colFacultyID"].Value;
+
+                // Xóa khoa
+                facultyService.Delete(facultyID);
+                MessageBox.Show("Xóa khoa thành công!");
+
+                // Refresh DataGridView
+                frmQuanLyKhoa_Load(this, EventArgs.Empty);
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn một khoa để xóa.");
+            }
+        }
+
+        private void btnThoatKhoa_Click(object sender, EventArgs e)
+        {
+            // Hiển thị hộp thoại xác nhận
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát?", "Xác nhận thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            // Kiểm tra kết quả của hộp thoại
+            if (result == DialogResult.Yes)
+            {
+                this.Close(); // Đóng form nếu người dùng chọn Yes
+            }
+        }
+
+        private void dgvDanhSachKhoa_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Check if the click is on a valid row
+            if (e.RowIndex >= 0)
+            {
+                // Retrieve the selected faculty's ID
+                int facultyID = (int)dgvDanhSachKhoa.Rows[e.RowIndex].Cells["colFacultyID"].Value;
+
+                // Retrieve the selected faculty's name
+                string facultyName = dgvDanhSachKhoa.Rows[e.RowIndex].Cells["colFacultyName"].Value.ToString();
+
+                // Display or process the selected faculty information
+                MessageBox.Show($"Selected Faculty ID: {facultyID}, Name: {facultyName}");
+
+                // Reflect the selected faculty information back into the input fields
+                txtMaKhoa.Text = facultyID.ToString();
+                txtTenKhoa.Text = facultyName;
+            }
         }
     }
 }

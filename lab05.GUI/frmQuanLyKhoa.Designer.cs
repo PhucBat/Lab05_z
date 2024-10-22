@@ -270,6 +270,15 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+            // Đăng ký sự kiện Click cho btnAdd
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+
+            // Đăng ký sự kiện Click cho btnXoa
+            this.btnXoa.Click += new System.EventHandler(this.btnDelete_Click);
+
+            // Đăng ký sự kiện Click cho btnThoatKhoa
+            this.btnThoatKhoa.Click += new System.EventHandler(this.btnThoatKhoa_Click);
+            this.dgvDanhSachKhoa.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSachKhoa_CellClick);
         }
 
         #endregion
@@ -292,4 +301,3 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colFacultyName;
     }
 }
-

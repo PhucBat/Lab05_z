@@ -206,5 +206,11 @@ namespace Lab05.BUS
             return Path.Combine(imagesDirectory, $"{studentID}.jpg"); // Hoặc sử dụng phần mở rộng phù hợp
         }
 
+        public List<Student> GetAllByFaculty(int facultyID)
+        {
+            StudentModel context = new StudentModel();
+            return context.Students.Where(p => p.FacultyID == facultyID).ToList();
+        }
+
     }
 }

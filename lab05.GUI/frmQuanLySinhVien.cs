@@ -414,5 +414,27 @@ namespace lab05.GUI
             }
             return null; // Trả về null nếu không tìm thấy ảnh
         }
+
+        private void lblQuanLyKhoa_Click(object sender, EventArgs e)
+        {
+            frmQuanLyKhoa frmquanlykhoa = new frmQuanLyKhoa();
+            frmquanlykhoa.ShowDialog();
+        }
+
+        private void menuQuanLyKhoa_Click(object sender, EventArgs e)
+        {
+            lblQuanLyKhoa_Click(sender, e);
+        }
+
+        private void menuDangKyChuyenNganh_Click(object sender, EventArgs e)
+        {
+            frmRegister frmregister = new frmRegister();
+            frmregister.ShowDialog();
+        }
+
+        private void lblDangKyChuyenNganh_Click(object sender, EventArgs e)
+        {
+            menuDangKyChuyenNganh_Click(sender, e);
+        }
     }
 }
