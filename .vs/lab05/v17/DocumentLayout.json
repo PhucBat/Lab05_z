@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\DIMON\\source\\repos\\lab05\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A180F0DF-5EDD-4934-BB04-0F895B30FE6E}|lab05.GUI\\lab05.GUI.csproj|C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.gui\\frmquanlysinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4FDACC1E-7D20-480A-B3FD-460586560FBC}|Lab05.DAL\\Lab05.DAL.csproj|C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.dal\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDACC1E-7D20-480A-B3FD-460586560FBC}|Lab05.DAL\\Lab05.DAL.csproj|solutionrelative:lab05.dal\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A180F0DF-5EDD-4934-BB04-0F895B30FE6E}|lab05.GUI\\lab05.GUI.csproj|c:\\users\\dimon\\source\\repos\\lab05\\lab05.gui\\frmquanlysinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A180F0DF-5EDD-4934-BB04-0F895B30FE6E}|lab05.GUI\\lab05.GUI.csproj|solutionrelative:lab05.gui\\frmquanlysinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A180F0DF-5EDD-4934-BB04-0F895B30FE6E}|lab05.GUI\\lab05.GUI.csproj|c:\\users\\dimon\\source\\repos\\lab05\\lab05.gui\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A180F0DF-5EDD-4934-BB04-0F895B30FE6E}|lab05.GUI\\lab05.GUI.csproj|C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.gui\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A180F0DF-5EDD-4934-BB04-0F895B30FE6E}|lab05.GUI\\lab05.GUI.csproj|solutionrelative:lab05.gui\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A180F0DF-5EDD-4934-BB04-0F895B30FE6E}|lab05.GUI\\lab05.GUI.csproj|C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.gui\\frmquanlysinhvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A180F0DF-5EDD-4934-BB04-0F895B30FE6E}|lab05.GUI\\lab05.GUI.csproj|solutionrelative:lab05.gui\\frmquanlysinhvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FDACC1E-7D20-480A-B3FD-460586560FBC}|Lab05.DAL\\Lab05.DAL.csproj|C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.dal\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FDACC1E-7D20-480A-B3FD-460586560FBC}|Lab05.DAL\\Lab05.DAL.csproj|solutionrelative:lab05.dal\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\Program.cs",
               "RelativeDocumentMoniker": "lab05.GUI\\Program.cs",
@@ -83,32 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmRegister.cs",
-              "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\frmRegister.cs",
-              "RelativeDocumentMoniker": "lab05.GUI\\frmRegister.cs",
-              "ToolTip": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\frmRegister.cs",
-              "RelativeToolTip": "lab05.GUI\\frmRegister.cs",
-              "ViewState": "AgIAAHEAAABANjMzMzMjwHQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T05:06:39.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmQuanLySinhVien.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\frmQuanLySinhVien.cs",
-              "RelativeDocumentMoniker": "lab05.GUI\\frmQuanLySinhVien.cs",
-              "ToolTip": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\frmQuanLySinhVien.cs [Design]",
-              "RelativeToolTip": "lab05.GUI\\frmQuanLySinhVien.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:10:23.804Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmQuanLyKhoa.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\frmQuanLyKhoa.cs",
               "RelativeDocumentMoniker": "lab05.GUI\\frmQuanLyKhoa.cs",
@@ -119,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\Lab05.DAL\\packages.config",
               "RelativeDocumentMoniker": "Lab05.DAL\\packages.config",
@@ -131,7 +106,44 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\Lab05.DAL\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "Lab05.DAL\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\DIMON\\source\\repos\\lab05\\Lab05.DAL\\Entities\\Student.cs",
+              "RelativeToolTip": "Lab05.DAL\\Entities\\Student.cs",
+              "ViewState": "AgIAAA8AAAAA/P//////vyAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:16:00.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmQuanLySinhVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\frmQuanLySinhVien.cs",
+              "RelativeDocumentMoniker": "lab05.GUI\\frmQuanLySinhVien.cs",
+              "ToolTip": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\frmQuanLySinhVien.cs [Design]",
+              "RelativeToolTip": "lab05.GUI\\frmQuanLySinhVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T06:10:23.804Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "frmRegister.cs",
+              "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\frmRegister.cs",
+              "RelativeDocumentMoniker": "lab05.GUI\\frmRegister.cs",
+              "ToolTip": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\frmRegister.cs",
+              "RelativeToolTip": "lab05.GUI\\frmRegister.cs",
+              "ViewState": "AgIAAHEAAABANjMzMzMjwHQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T05:06:39.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "frmRegister.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\frmRegister.cs",
               "RelativeDocumentMoniker": "lab05.GUI\\frmRegister.cs",
@@ -142,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\Lab05.BUS\\packages.config",
               "RelativeDocumentMoniker": "Lab05.BUS\\packages.config",
@@ -154,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "frmQuanLySinhVien.cs",
               "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\frmQuanLySinhVien.cs",
               "RelativeDocumentMoniker": "lab05.GUI\\frmQuanLySinhVien.cs",
@@ -162,12 +174,11 @@
               "RelativeToolTip": "lab05.GUI\\frmQuanLySinhVien.cs",
               "ViewState": "AgIAAF0AAAAAi5mZmdktwG8AAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T05:06:56.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T05:06:56.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "frmQuanLyKhoa.cs",
               "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\frmQuanLyKhoa.cs",
               "RelativeDocumentMoniker": "lab05.GUI\\frmQuanLyKhoa.cs",
@@ -179,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "FacultyService.cs",
               "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\Lab05.BUS\\FacultyService.cs",
               "RelativeDocumentMoniker": "Lab05.BUS\\FacultyService.cs",
@@ -191,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\App.config",
               "RelativeDocumentMoniker": "lab05.GUI\\App.config",
@@ -199,12 +210,11 @@
               "RelativeToolTip": "lab05.GUI\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-22T03:38:38.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T03:38:38.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\Lab05.BUS\\StudentService.cs",
               "RelativeDocumentMoniker": "Lab05.BUS\\StudentService.cs",
@@ -216,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "frmQuanLySinhVien.Designer.cs",
               "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\lab05.GUI\\frmQuanLySinhVien.Designer.cs",
               "RelativeDocumentMoniker": "lab05.GUI\\frmQuanLySinhVien.Designer.cs",
@@ -224,20 +234,7 @@
               "RelativeToolTip": "lab05.GUI\\frmQuanLySinhVien.Designer.cs",
               "ViewState": "AgIAAMcAAAAAAAAAAAAAAA4BAACMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T04:33:03.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\DIMON\\source\\repos\\lab05\\Lab05.DAL\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "Lab05.DAL\\Entities\\Student.cs",
-              "ToolTip": "C:\\Users\\DIMON\\source\\repos\\lab05\\Lab05.DAL\\Entities\\Student.cs",
-              "RelativeToolTip": "Lab05.DAL\\Entities\\Student.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAzwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T07:16:00.436Z"
+              "WhenOpened": "2024-10-17T04:33:03.179Z"
             }
           ]
         }
